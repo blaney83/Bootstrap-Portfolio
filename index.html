@@ -12,8 +12,8 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Ben Laney</a>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Ben Laney</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -21,20 +21,20 @@
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
+                <li class="nav-item active justify-content-end">
                     <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item active justify-content-end">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item active justify-content-end">
                     <a class="nav-link active" href="contact.html">Connect</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container mainContent">
         <div class="row align-item-center">
             <div class="container">
                 <div class="row">
@@ -43,10 +43,10 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row bodyChunk">
                     <div class="col-12 main">
                         <div class="para">
-                            <p>                            <img src="Assets/Images/facebook profile picture.jpg" alt="Ben Laney" class="img-reponsive img">
+                            <p> <img src="Assets/Images/facebook profile picture.jpg" alt="Ben Laney" class="img-reponsive img">
                                 My name is Ben Laney. I am currently a student in the University of
                                 Arizona Full-Stack Coding Bootcamp. I have a very diverse background.
                                 I studied Chemical Engineering for a few years, but never became fully
@@ -67,22 +67,69 @@
                                 baseball athlete) and nature (I am an Eagle Scout and I love being
                                 outside). You can find more of my specific intrests in the lists on this
                                 page.
+                                <br>
                             </p>
                         </div>
+                        <!--paragraphs and image-->
                     </div>
+                    <!--paragraphs and image column div-->
                 </div>
+                <!--paragraphs and image row div-->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row justify-content-center">
+                            <div class="col-4">
+                                <div class="list-group" id="list-tab" role="tablist">
+                                    <a class="list-group-item list-group-item-action active" id="list-home-list"
+                                        data-toggle="list" href="#list-home" role="tab" aria-controls="home">Professional
+                                        Interests</a>
+                                    <a class="list-group-item list-group-item-action" id="list-profile-list"
+                                        data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Personal
+                                        Interests</a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                                        aria-labelledby="list-home-list">
+                                        <ul>
+                                            <li>Java Script</li>
+                                            <li>Web Developement</li>
+                                            <li>HTML5</li>
+                                            <li>Software Engineering</li>
+                                            <li>CSS... Sometimes</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                                        <ul>
+                                            <li>Music</li>
+                                            <li>Baseball</li>
+                                            <li>Snowboarding</li>
+                                            <li>Video Games</li>
+                                            <li>Cars</li>
+                                            <li>Politics and Current Events</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--interests list column-->
+                </div>
+                <!--interests list row-->
             </div>
+            <!--text, image and lists container-->
         </div>
-
-
-
-
-
-
+        <!--main content row-->
     </div>
-    </div>
-    <!--main body row-->
-    </div>
+    <!--.mainContent container-->
+
+    <nav class="navbar navbar-light bg-light justify-content-center">
+        <span class="navbar-text">
+            Copyright 2018
+        </span>
+    </nav>
+
 
 
 
